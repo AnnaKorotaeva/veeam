@@ -1,0 +1,246 @@
+.main-wrapper {
+  font-size: 12px;
+  width: 730px;
+  position: absolute;
+  left:50%;
+  margin-left:-365px;
+  z-index: 1;
+}
+
+/*header*/
+header {
+  border-top: 3px solid #737373;
+  margin-top: 25px;
+  background-color: #f1f1f1;
+  width: 770px;
+}
+.main-header__logo {
+  padding: 10px 15px;
+}
+.main-header__info {
+  padding-top: 15px;
+  padding-right: 25px;
+}
+.main-header__title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main-header__breadcrumb {
+  display: flex;
+  background: linear-gradient(to top, #0aa40a, #09b10a);
+  padding: 9px;
+  margin: 0;
+}
+.main-header__breadcrumb li {
+  padding: 0 10px;
+  list-style: none;
+}
+.main-header__breadcrumb a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*content*/
+.main-container {
+  padding: 20px;
+  width: 730px;
+}
+.background {
+  width:770px;
+  background-image: url("../img/pattern-basic.png");
+  padding-top: 35px;
+}
+.nav {
+  padding-left: 0;
+  list-style: none;
+    margin-right: 30px;
+}
+.nav-tabs {
+  1px solid #ddd;
+}
+.nav ul {
+  margin-top: 0;
+  display: block;
+}
+.nav-tabs>li {
+    float: right;
+    margin-bottom: -1px;
+  }
+.nav>li {
+      position: relative;
+      display: block;
+  }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+      color: #555;
+      cursor: default;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-bottom-color: transparent;
+    }
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 2;
+    border-radius: 4px 4px 0 0;
+    color: #555;
+  }
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    bottom:30px;
+    height: 30px;
+}
+.main-container__logo {
+  position: relative;
+  padding: 10px;
+}
+.main-container__logo--text {
+  position: absolute;
+  top:45px;
+  left: 60px;
+  color: #fff;
+}
+.content-wrapper {
+  background-color: #fff;
+  width: 705px;
+  border: 1px solid #dedede;
+  padding: 10px;
+  border-radius: 3px;
+}
+.main-content {
+  display: flex;
+}
+.main-content__info {
+  display: flex;
+}
+.main-content__info ul {
+  list-style: square;
+}
+.main-content__left {
+  width: 385px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.main-content__video {
+  display: block;
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+.arrow-enterprise {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+}
+
+/*form*/
+.register {
+  width: 260px;
+  height: 310px;
+  border: 5px solid #fff;
+  border-radius: 3px;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.register h2 {
+  text-align: center;
+  color: #2d910a;
+}
+.field {
+  clear: both;
+  text-align: right;
+  line-height:25px;
+}
+label {
+  float: left;
+  padding-right:20px;
+}
+input {
+  width:145px;
+}
+select {
+  width:149px;
+}
+.main-form {
+  float: left;
+}
+.submit-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 14px;
+  padding: 8px;
+  width: 110px;
+  background: linear-gradient(to top, #0fab23, #4fb745);
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+}
+
+/*footer*/
+.footer-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.footer-nav a {
+  display: block;
+  text-decoration: none;
+  color: #747474;
+}
+.footer-nav li {
+  border-right: 1px solid #747474;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.footer-nav li:last-child {
+  border: none;
+}
+.footer-up {
+  display: flex;
+  justify-content: space-between;;
+}
+.footer-social {
+  padding-top: 15px;
+  padding-right: 25px;
+}
+.footer-copyright {
+  display: block;
+  color: #747474;
+  text-align: center;
+}
+.footer-copyright a {
+  text-decoration: none;
+  color: #1091c7;
+}
+
+/*popup*/
+.modal-content {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+.video-content {
+  position: fixed;
+}
+
+/*font styles*/
+.yellow-text {
+  color: #ffec00;
+}
+.bold {
+  font-weight: bold;
+}
+.required {
+  color: #e10019;
+}
